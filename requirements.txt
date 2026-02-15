@@ -1,0 +1,45 @@
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# AI & LLM
+anthropic==0.18.0
+openai==1.12.0
+langchain==0.1.6
+langchain-anthropic==0.1.1
+
+# PDF Processing
+PyMuPDF==1.23.21
+pdf2image==1.17.0
+Pillow==10.2.0
+
+# Data Processing
+pandas==2.2.0
+numpy==1.26.3
+
+# Database
+sqlalchemy==2.0.25
+alembic==1.13.1
+psycopg2-binary==2.9.9
+
+# Export
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+
+# UI (optional)
+streamlit==1.31.0
+
+# Utilities
+python-dotenv==1.0.1
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Testing
+pytest==8.0.0
+pytest-cov==4.1.0
+pytest-asyncio==0.23.4
+
+# Development
+black==24.1.1
+ruff==0.2.0
